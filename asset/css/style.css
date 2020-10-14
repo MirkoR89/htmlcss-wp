@@ -17,7 +17,7 @@ body {
 }
 
 .mb-20 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 /* /Utility */
 
@@ -71,7 +71,7 @@ ul > a, li {
   list-style: none;
   display: inline-block;
   line-height: 40px;
-  padding: 0 5px;
+  padding: 0 3px;
 }
 
 nav a li:hover {
@@ -101,13 +101,31 @@ main::after {
 .box_center {
   width: 50%;
   margin: 0 5%;
+
+
 }
 
 .widget {
   background: white;
   padding: 15px;
   border-radius: 5px;
+}
 
+h2 {
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: grey;
+  line-height: 90px;
+}
+
+.box_center h2 {
+text-transform: uppercase;
+text-shadow: 1px 2px lightgrey;
+}
+
+p {
+  line-height: 30px;
 }
 /* /Main */
 
@@ -115,5 +133,6 @@ main::after {
 footer {
   height: 200px;
   background: purple;
+
 }
 /* /Footer */
